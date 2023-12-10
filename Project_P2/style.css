@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+.mainh1 {
+    font-size: 40px;
+}
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #ffc403;
+}
+
+.home {
+    height: 50vh;
+    background: url(images/Statement_Jewels_Background2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 650px;
+}
+.home-content h1 {
+    font-size: 56px;
+}
+
+.home-content h2 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/* Homepage Content */
+
+.centerimage {
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    padding: 20px;
+    width: 50%;
+    margin:auto
+}
+
+main h2 {
+    border-bottom: 0.5px solid #3a3a3a;
+    padding: 1px;
+}
+
+/* classes */
+.make-yellow {
+    color: #ffc403;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    font-size: 20px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-sci {
+    padding: 50px;
+    position: absolute;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+/* Keyframs Animation */
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}

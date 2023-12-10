@@ -1,0 +1,29 @@
+.gallery_align {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery_align::before {
+    display: block;
+    content: "";
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.gallery_align2 {
+    text-align: center;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.gallery_align2 img {
+    max-width: 100%;
+}
+
+.mainh1 {
+    color: #ffc403;
+    font-size: 40px;
+}
